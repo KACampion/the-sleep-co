@@ -34,24 +34,55 @@
   <!-------------------------------------Body Starts-->
 
   <body>
-    <!----------------------------- Navigation Bar -->
-    <nav>
-      <a href="/index.html"> Home</a>
-      <a href="/about.html"> About</a>
-      <a href="/contact.html"> Contact</a>
-    </nav>
-
     <!---------------------------------Header Banner-->
-    <header class="padded grid text-center tall-100">
-      <div class="col-12-middle">
-        <h3 class="font-weight-extra-bold editable">
-          <span class="featured-text"> Contact </span> us today!
-        </h3>
-        <h1 class="font-weight-light editable">
-          The softest mattress membership
-        </h1>
+    <header class="grid-spaceBetween bg-dark padded-sm">
+      <div class="col-4 mob-text-center padded-sm">
+        <h1>LOGO</h1>
+      </div>
+      <div class="col-8 text-right mob-text-center padded-sm">
+        <nav>
+          <a href="/index.html"> Home</a>
+          <a href="/about.html"> About</a>
+          <a href="/contact.html"> Contact</a>
+        </nav>
       </div>
     </header>
+
+    <!---------------------------Header Photo Banner-->
+    <section class="bg-white padded grid text-center tall-100">
+      <div class="col-12-middle">
+        <h3 class="font-weight-extra-bold editable">
+          <span class="featured-text">contact</span> us today
+        </h3>
+        <h1 class="font-weight-light editable">
+          your best night's sleep is just a click away
+        </h1>
+      </div>
+    </section>
+
+    <!---------------------------Contact Us-->
+    <section class="grid bg-light padded text-center">
+      <div class="col-12">
+        <h2>we'd love to hear from you!</h2>
+      </div>
+      <div class="col-4">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="col-4">
+        <input type="text" name="email" placeholder="Email" required />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          name="product"
+          placeholder="What's your ideal mattress..."
+          required
+        />
+      </div>
+      <div class="col-12">
+        <input type="submit" value="Send!" class="button" />
+      </div>
+    </section>
 
     <!---------------Footer-->
     <footer class="padded grid-spaceBetween bg-dark">

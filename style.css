@@ -38,6 +38,14 @@ body {
   padding: 10%;
 }
 
+.bg-light {
+  background-color: #ffbe00;
+  color: #192837;
+}
+
+.white-text {
+  color: white;
+}
 .bg-dark {
   background-color: #192837;
   color: white;
@@ -88,11 +96,21 @@ p:last-child {
 a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px solid;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-left: 1rem;
 }
 
 a:hover {
   color: #ffbe00;
+}
+
+.button {
+  background-color: #192837;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 1%;
 }
 
 .featured-text {
@@ -134,13 +152,14 @@ a:hover {
 
 /*Header and Footer Styles*/
 
-header {
+.bg-white {
   background-image: url("/images/bed_2.jpg");
   background-size: cover;
   background-position: center;
+  padding: 0 5%;
 }
 
-header h3 {
+.bg-white h3 {
   font-size: 5.5rem;
   line-height: 1;
 }
@@ -164,6 +183,12 @@ footer a {
   background-position: 50% 57%;
 }
 
+.bg-story {
+  background-image: url("/images/bed_3.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0 5%;
+}
 /*Icon Grid*/
 
 .fas {
@@ -184,4 +209,10 @@ footer a {
 }
 .big-text {
   font-size: 5rem;
+}
+
+@media (max-width: 48rem) {
+  .mob-text-center {
+    text-align: center;
+  }
 }
