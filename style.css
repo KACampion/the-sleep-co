@@ -150,6 +150,15 @@ a:hover {
   line-height: 1;
 }
 
+[class*="grid-"] > .footerSocial,
+[class*="grid_"] > .footerSocial,
+[class~="grid"] > .footerSocial {
+  text-align: center;
+  display: flex;
+  flex-basis: 6.333%;
+  max-width: 33.33333%;
+}
+
 /*Header and Footer Styles*/
 
 .bg-white {
@@ -196,6 +205,10 @@ footer a {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 3rem;
+}
+
+#social {
+  font-size: 2rem;
 }
 
 /*Image Gallery*/
